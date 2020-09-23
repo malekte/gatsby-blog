@@ -7,6 +7,11 @@ sections:
 - type: document
   path: ''
   label: floorball.news
+- type: directory
+  path: ''
+  label: Articles
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
